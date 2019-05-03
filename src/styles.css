@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+        
+}
+.container {
+background-color: black;
+
+padding:0px;
+margin:0px;
+width:100%;
+  
+}
+div.container{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    height:50px;
+    padding:20px;
+}
+
+
+
+.hero {
+  
+  padding: 15px;
+  height: 350px;
+  width:93%;
+  margin-left: 15px;
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+}
+.todayData{
+    
+    width:93%;
+    padding-left: 30px;
+    color:white;
+    padding-top: 20px;
+    margin-left: 15px;
+
+}
+
+ .forecast-header:after {
+  content: " ";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+}
+
+
+.forecast-content {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.location {
+  font-size: 18px;
+  font-size: 1.2857142857em;
+  font-weight: 400;
+  color:white;
+}
+
+.degree .num {
+  font-size: 90px;
+  font-size: 6.4285714286rem;
+  margin-right: 30px;
+}
+
+.new{
+    color:white; width: 93%;padding-top :20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:15px;
+}
+@media only screen and (max-width: 456px) {
+    .new {
+      font-size:12px;
+    }
+    .location{
+        font-weight:200px;
+    }
+    .degree .num {
+        font-size: 40px;
+       
+        margin-right: 5px;
+      }
+
+      .hero {
+  
+        padding: 15px;
+        height: 350px;
+        width:85%;
+        margin-left: 15px;
+        background-color: blanchedalmond;
+        box-sizing: border-box;
+      }
+      
+  }
